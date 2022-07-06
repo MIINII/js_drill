@@ -1,0 +1,50 @@
+.caculator {
+  margin: auto;
+  background-color: darkcyan;
+  color: white;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.caculator h1 {
+  padding: 30px;
+  margin: auto;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.caculator label {
+  text-align: right;
+}
+.caculator div {
+  text-align: center;
+  padding: 10px;
+}
+
+input {
+  border: none;
+  color: white;
+  background-color: teal;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button > button {
+  width: 90px;
+  padding: 5px;
+  background-color: rgba(47, 109, 80, 0.1);
+  color: white;
+  border: 0.5px solid white;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: white;
+  color: #777;
+  cursor: pointer;
+}
