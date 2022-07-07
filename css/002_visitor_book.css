@@ -1,0 +1,46 @@
+h1 {
+  padding: 30px;
+  text-align: center;
+}
+
+#input_all {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#visitor_table {
+  display: grid;
+  width: auto;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1,  1fr); /* 세로 */
+  border: 1px solid #ddd;
+}
+
+.visitor_number {
+  padding: 20px;
+  grid-column: span 1;
+  grid-row: span 5;
+  background-color: rgb(167, 88, 93);
+}
+
+.visitor_name {
+  padding: 20px;
+  grid-column: 2 3;
+  grid-row: span 5;
+  background-color: rgb(44, 108, 247);
+}
+
+.visitor_content {
+  padding: 20px;
+  grid-column: 3 4;
+  grid-row: span 5;
+  background-color: rgb(208, 97, 227);
+}
+
+.visitor_date {
+  padding: 20px;
+  grid-column: 4 5;
+  grid-row: span 5;
+  background-color: rgb(61, 154, 215);
+}

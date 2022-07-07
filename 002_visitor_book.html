@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/002_visitor_book.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>미니 싸이월드 방명록</h1>
+
+    <div id="input_all">
+      <label for="input_wirter">작성자</label>
+      <input type="text" id="input_writer" />
+
+      <label for="input_contents">내용</label>
+      <input type="text" id="input_contents" />
+
+      <button type="button" onclick="inputText()">작성</button>
+    </div>
+
+    <div id="visitor_table">
+      <!-- <tr>
+        <td>01</td>
+        <td>02</td>
+        <td>03</td>
+      </tr> -->
+    <div class="visitor_number">번호</div>
+    <div class="visitor_name">작성자</div>
+    <div class="visitor_content">내용</div>
+    <div class="visitor_date">작성일</div>
+
+    </div>
+
+    <script src="./js/002_visitor_book.js"></script>
+  </body>
+</html>
